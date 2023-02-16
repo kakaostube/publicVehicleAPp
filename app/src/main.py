@@ -74,7 +74,7 @@ class SampleApp(VehicleApp):
         vehicle_speed = data.get(self.Vehicle.Speed).value
 
         logger.info("VehicleApp on_speed_change")
-        
+
         # Do anything with the received value.
         # Example:
         # - Publishes current speed to MQTT Topic (i.e. DATABROKER_SUBSCRIPTION_TOPIC).
